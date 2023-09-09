@@ -9,7 +9,11 @@ const questions = [
         name: 'text',
         message: 'Insert Text:',
     },
-    // add error for too many characters
+    {
+        type: 'input',
+        name: 'textColor',
+        message: 'Insert Text Color:',
+    },
     {
         type: 'list',
         name: 'shape',
@@ -25,7 +29,7 @@ const questions = [
 
 //Check character length
 function charLength(answers){
-    if (answers.charLength > 3) {
+    if (answers.text.length > 3) {
         console.log('Error: Text has to be 3 or less characters.')
     } else {
         svgCode(answers)
@@ -34,7 +38,7 @@ function charLength(answers){
 
 // write code for svg file from inputs
 function svgCode(answers) {
-    if (answers.shape == 'Cirlce'){
+    if (answers.shape == 'Circle'){
         var code = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 
         <circle cx="150" cy="100" r="80" fill="${answers.shapeColor}" />
