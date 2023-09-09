@@ -23,6 +23,15 @@ const questions = [
     },
 ];
 
+//Check character length
+function charLength(answers){
+    if (answers.charLength > 3) {
+        console.log('Error: Text has to be 3 or less characters.')
+    } else {
+        svgCode(answers)
+    }
+} 
+
 // write code for svg file from inputs
 function svgCode(answers) {
     if (answers.shape == 'Cirlce'){
@@ -56,3 +65,19 @@ function svgCode(answers) {
     );
 
 }
+
+// TODO: Create a function to initialize app
+function init() {
+    inquirer
+        .prompt(questions)
+        .then((answers) => {
+
+            charLength(answers);
+
+        });
+
+
+};
+
+// Function call to initialize app
+init();
