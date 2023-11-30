@@ -2,6 +2,6 @@
 
         <polygon points="150,20 0,150 300,150" fill="pink" />
       
-        <text x="150" y="125" font-size="60" text-anchor="middle" fill="purple">AbC</text>
+        <text x="150" y="125" font-size="60" text-anchor="middle" fill="purple">ccc</text>
       
       </svg>
