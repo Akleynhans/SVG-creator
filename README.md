@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-[link to tutorial video](https://drive.google.com/file/d/1-k4AD8UDkrIWxny5jxZbo5tKgNd_Wnzc/view?usp=drive_link)<br>
+[link to tutorial video](https://drive.google.com/file/d/1f9pJDPy-YtO9reAarZ0z8dXXtL4G2IVl/view?usp=sharing)<br>
 [example of created logo](./assets/Screenshot.png)
 
 
